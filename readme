@@ -1,0 +1,11 @@
+In the video store project, the application of Java skills was pivotal in creating a functional and user-friendly video management system. The core components of the project—`Video`, `VideoStore`, and `VideoLauncher`—demonstrated key Java concepts effectively.
+
+**Object-Oriented Programming (OOP):** The `Video` class showcased the principles of encapsulation and abstraction. It encapsulates video-related attributes and methods such as `videoName`, `checkout`, and `rating`, while providing public methods like `doCheckout()`, `doReturn()`, and `reciveRating(int rating)` to interact with these attributes. This design promotes modularity and code reusability by keeping the video data and operations neatly encapsulated within the `Video` class.
+
+**Collections and Data Structures:** In the `VideoStore` class, Java's `ArrayList` was utilized to maintain a dynamic list of `Video` objects. This choice allowed for efficient addition and management of videos, leveraging the `ArrayList`'s dynamic resizing capabilities. Methods such as `addVideo(String name)`, `doCheckout(String name)`, and `doReturn(String name)` iterate through this list to perform operations, demonstrating practical use of Java’s collections framework for managing dynamic data.
+
+**Control Flow and User Interaction:** The `VideoLauncher` class employed Java's `Scanner` for capturing user inputs, enabling interactive command-line operations. Using control flow constructs like `switch` and `do-while` loops, the class provides a menu-driven interface to handle various user commands such as adding a video, checking out, returning, and rating videos. This setup ensures a seamless user experience by guiding users through different functionalities.
+
+**Exception Handling and Validation:** While not explicitly included in the provided code, robust Java programming practices would involve implementing exception handling and input validation to manage potential runtime errors and invalid user inputs, enhancing the application's reliability and robustness.
+
+Overall, the integration of Java’s OOP principles, collections framework, and user interaction mechanisms in the `Video`, `VideoStore`, and `VideoLauncher` classes created a comprehensive video management system that is both efficient and user-friendly.
